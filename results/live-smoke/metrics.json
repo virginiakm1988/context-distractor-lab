@@ -1,0 +1,52 @@
+{
+  "curve": [
+    {
+      "hard_fraction": 0.0,
+      "n": 3,
+      "accuracy": 0.6666666666666666,
+      "wilson95": [
+        0.2076549551264879,
+        0.9385096847238394
+      ],
+      "errors": 1
+    },
+    {
+      "hard_fraction": 0.1,
+      "n": 3,
+      "accuracy": 0.3333333333333333,
+      "wilson95": [
+        0.0614903152761605,
+        0.7923450448735121
+      ],
+      "errors": 2
+    },
+    {
+      "hard_fraction": 0.5,
+      "n": 3,
+      "accuracy": 0.6666666666666666,
+      "wilson95": [
+        0.2076549551264879,
+        0.9385096847238394
+      ],
+      "errors": 1
+    },
+    {
+      "hard_fraction": 1.0,
+      "n": 3,
+      "accuracy": 0.6666666666666666,
+      "wilson95": [
+        0.2076549551264879,
+        0.9385096847238394
+      ],
+      "errors": 1
+    }
+  ],
+  "n_predictions": 12,
+  "scenarios": [
+    "numeric_aggregation",
+    "record_retrieval",
+    "two_hop_entity_join"
+  ],
+  "interpretation": "Synthetic retrieval, two-hop joining and arithmetic are method demonstrations, not reproduction of the paper's QA datasets or its nonlinear effect. No degradation is imposed on fixture outputs.",
+  "result_kind": "actual_nim_calls"
+}

@@ -1,0 +1,52 @@
+{
+  "curve": [
+    {
+      "hard_fraction": 0.0,
+      "n": 3,
+      "accuracy": 1.0,
+      "wilson95": [
+        0.43849391955098227,
+        1
+      ],
+      "errors": 0
+    },
+    {
+      "hard_fraction": 0.1,
+      "n": 3,
+      "accuracy": 1.0,
+      "wilson95": [
+        0.43849391955098227,
+        1
+      ],
+      "errors": 0
+    },
+    {
+      "hard_fraction": 0.5,
+      "n": 3,
+      "accuracy": 1.0,
+      "wilson95": [
+        0.43849391955098227,
+        1
+      ],
+      "errors": 0
+    },
+    {
+      "hard_fraction": 1.0,
+      "n": 3,
+      "accuracy": 1.0,
+      "wilson95": [
+        0.43849391955098227,
+        1
+      ],
+      "errors": 0
+    }
+  ],
+  "n_predictions": 12,
+  "scenarios": [
+    "numeric_aggregation",
+    "record_retrieval",
+    "two_hop_entity_join"
+  ],
+  "interpretation": "Synthetic retrieval, two-hop joining and arithmetic are method demonstrations, not reproduction of the paper's QA datasets or its nonlinear effect. No degradation is imposed on fixture outputs.",
+  "result_kind": "authored_fixture_no_model_inference"
+}

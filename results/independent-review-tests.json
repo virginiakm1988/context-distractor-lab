@@ -1,0 +1,6 @@
+{
+  "reviewer": "independent speech/vision implementation agent",
+  "tests_passed": 9,
+  "stdout": "",
+  "stderr": "test_answer_not_present_in_distractors (test_project.InkTests.test_answer_not_present_in_distractors) ... ok\ntest_controls_are_paired (test_project.InkTests.test_controls_are_paired) ... ok\ntest_duplicate_rounded_conditions_are_rejected (test_project.InkTests.test_duplicate_rounded_conditions_are_rejected) ... ok\ntest_format_and_answer_are_scored_separately (test_project.InkTests.test_format_and_answer_are_scored_separately) ... ok\ntest_invalid_ratios (test_project.InkTests.test_invalid_ratios) ... ok\ntest_no_manufactured_drop (test_project.InkTests.test_no_manufactured_drop) ... ok\ntest_template_constraints (test_project.InkTests.test_template_constraints) ... ok\ntest_confidence_interval (test_project.SharedTests.test_confidence_interval) ... ok\ntest_no_letter_mining (test_project.SharedTests.test_no_letter_mining) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.004s\n\nOK\n"
+}

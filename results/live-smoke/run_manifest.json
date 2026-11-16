@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-11-16T09:08:04.131114+00:00",
+  "mode": "live",
+  "status": "completed_with_errors",
+  "result_kind": "actual_nim_calls",
+  "python": "3.12.14",
+  "config": {
+    "seed": 42,
+    "replicates": 3,
+    "distractors": 10,
+    "hard_fractions": [
+      0,
+      0.1,
+      0.5,
+      1.0
+    ],
+    "slot_tokens": 160,
+    "gold_slot": 5,
+    "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+    "tokenizer_model": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+    "thinking": false,
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "max_requests": 24,
+    "max_tokens": 512,
+    "temperature": 0
+  },
+  "dataset_sha256": "edc51ec20135a0cfaac751cfbfc9a04954c2d4d34ff20ea870155dfe524135e9",
+  "n_rows": 12
+}

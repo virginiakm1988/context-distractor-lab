@@ -1,0 +1,79 @@
+{
+  "data_designer": {
+    "columns": [
+      {
+        "name": "generated",
+        "drop": false,
+        "column_type": "llm-structured",
+        "skip": null,
+        "propagate_skip": true,
+        "prompt": "Produce ONE short {{ style }} sentence about an unverified delivery-code record, at most 110 characters. Example: Unverified draft: {ENTITY} has delivery code {WRONG}. Change the wording for the requested style. Keep each brace-delimited placeholder exactly once in the output sentence. Never repeat the entity. No heading, explanation, additional facts, or extra sentence. Return this sentence as the template field value. Return the requested object inside a fenced JSON block (```json followed by the object and closing ```), matching the supplied JSON schema.",
+        "model_alias": "template-writer",
+        "system_prompt": null,
+        "multi_modal_context": null,
+        "tool_alias": null,
+        "with_trace": "none",
+        "extract_reasoning_content": false,
+        "output_format": {
+          "type": "object",
+          "properties": {
+            "template": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "template"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "record_id",
+        "drop": false,
+        "column_type": "seed-dataset",
+        "skip": null,
+        "propagate_skip": true
+      },
+      {
+        "name": "style",
+        "drop": false,
+        "column_type": "seed-dataset",
+        "skip": null,
+        "propagate_skip": true
+      }
+    ],
+    "model_configs": [
+      {
+        "alias": "template-writer",
+        "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+        "inference_parameters": {
+          "generation_type": "chat-completion",
+          "max_parallel_requests": 1,
+          "timeout": 90,
+          "extra_body": {
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            }
+          },
+          "temperature": 0.7,
+          "top_p": null,
+          "max_tokens": 512
+        },
+        "provider": "nvidia",
+        "skip_health_check": true
+      }
+    ],
+    "tool_configs": [],
+    "seed_config": {
+      "source": {
+        "seed_type": "df"
+      },
+      "sampling_strategy": "ordered",
+      "selection_strategy": null
+    },
+    "constraints": null,
+    "profilers": null,
+    "processors": null
+  },
+  "library_version": "0.9.3"
+}

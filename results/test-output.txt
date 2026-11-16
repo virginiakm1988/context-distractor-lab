@@ -1,0 +1,14 @@
+test_answer_not_present_in_distractors (test_project.InkTests.test_answer_not_present_in_distractors) ... ok
+test_controls_are_paired (test_project.InkTests.test_controls_are_paired) ... ok
+test_duplicate_rounded_conditions_are_rejected (test_project.InkTests.test_duplicate_rounded_conditions_are_rejected) ... ok
+test_format_and_answer_are_scored_separately (test_project.InkTests.test_format_and_answer_are_scored_separately) ... ok
+test_invalid_ratios (test_project.InkTests.test_invalid_ratios) ... ok
+test_no_manufactured_drop (test_project.InkTests.test_no_manufactured_drop) ... ok
+test_template_constraints (test_project.InkTests.test_template_constraints) ... ok
+test_confidence_interval (test_project.SharedTests.test_confidence_interval) ... ok
+test_no_letter_mining (test_project.SharedTests.test_no_letter_mining) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.003s
+
+OK

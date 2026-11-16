@@ -1,0 +1,3 @@
+{"record_id": "distractor-0", "kind": "distractor", "template": "Unverified draft: {ENTITY} has delivery code {WRONG}.", "automatic_validation": true, "review_status": "pending", "source": "nemo_data_designer_nim"}
+{"record_id": "distractor-1", "kind": "distractor", "template": "Entity has unverified delivery code {CODE}.", "automatic_validation": false, "review_status": "pending", "source": "nemo_data_designer_nim"}
+{"record_id": "distractor-2", "kind": "distractor", "template": "Unverified delivery code {WRONG} for {ENTITY}.", "automatic_validation": true, "review_status": "pending", "source": "nemo_data_designer_nim"}

@@ -1,0 +1,40 @@
+{
+  "attempt_id": 3,
+  "mode": "live",
+  "started_at": "2026-11-16T09:08:05.056507+00:00",
+  "endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+  "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+  "request_sha256": "b46195602d43748268ff79ede6a9aed98752e4ceace1d08b7b5639171f5a76d1",
+  "status": "succeeded",
+  "response": {
+    "id": "chatcmpl-ec3001c5-a69f-4b1b-8eb0-56474969a378",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "KEY93810",
+          "refusal": null,
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "created": 1794820083,
+    "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 1809,
+      "completion_tokens": 7,
+      "total_tokens": 1816,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "elapsed_seconds": 0.453,
+  "finished_at": "2026-11-16T09:08:05.499061+00:00"
+}

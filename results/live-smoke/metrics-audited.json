@@ -1,0 +1,78 @@
+{
+  "curve": [
+    {
+      "hard_fraction": 0.0,
+      "n": 3,
+      "accuracy": 0.6666666666666666,
+      "accuracy_definition": "final_json_answer_accuracy",
+      "answer_exact_match": 1.0,
+      "answer_wilson95": [
+        0.43849391955098227,
+        1
+      ],
+      "wilson95": [
+        0.2076549551264879,
+        0.9385096847238394
+      ],
+      "errors": 1
+    },
+    {
+      "hard_fraction": 0.1,
+      "n": 3,
+      "accuracy": 0.3333333333333333,
+      "accuracy_definition": "final_json_answer_accuracy",
+      "answer_exact_match": 1.0,
+      "answer_wilson95": [
+        0.43849391955098227,
+        1
+      ],
+      "wilson95": [
+        0.0614903152761605,
+        0.7923450448735121
+      ],
+      "errors": 2
+    },
+    {
+      "hard_fraction": 0.5,
+      "n": 3,
+      "accuracy": 0.6666666666666666,
+      "accuracy_definition": "final_json_answer_accuracy",
+      "answer_exact_match": 1.0,
+      "answer_wilson95": [
+        0.43849391955098227,
+        1
+      ],
+      "wilson95": [
+        0.2076549551264879,
+        0.9385096847238394
+      ],
+      "errors": 1
+    },
+    {
+      "hard_fraction": 1.0,
+      "n": 3,
+      "accuracy": 0.6666666666666666,
+      "accuracy_definition": "final_json_answer_accuracy",
+      "answer_exact_match": 1.0,
+      "answer_wilson95": [
+        0.43849391955098227,
+        1
+      ],
+      "wilson95": [
+        0.2076549551264879,
+        0.9385096847238394
+      ],
+      "errors": 1
+    }
+  ],
+  "n_predictions": 12,
+  "scenarios": [
+    "numeric_aggregation",
+    "record_retrieval",
+    "two_hop_entity_join"
+  ],
+  "interpretation": "Synthetic retrieval, two-hop joining and arithmetic are method demonstrations, not reproduction of the paper's QA datasets or its nonlinear effect. No degradation is imposed on fixture outputs.",
+  "format_note": "accuracy requires a correct answer in a final JSON object (a fenced object or explanatory prefix is accepted; trailing prose is rejected). answer_exact_match additionally accepts a complete plain answer exactly equal to the oracle; it never mines text from prose. Report both to separate QA errors from output-format errors.",
+  "result_kind": "actual_nim_calls_rescored_no_new_requests",
+  "source": "Original provider responses matched by request SHA-256. Original predictions and metrics are retained."
+}
