@@ -1,4 +1,4 @@
-# First Drop of Ink with NVIDIA SDKs
+# Context Distractor Lab with NVIDIA SDKs
 
 Run paired hard-distractor experiments with identical token budgets and gold-document positions across distractor proportions. Explore record retrieval, two-hop joining, and numeric aggregation.
 
@@ -29,8 +29,8 @@ The default hosted model is `nvidia/nemotron-3.5-lightning-30b-a3b`. Endpoint av
 
 ## Interactive tutorials
 
-- [Quickstart in Colab](https://colab.research.google.com/github/virginiakm1988/first-drop-of-ink-nvidia/blob/main/notebooks/01_quickstart.ipynb)
-- [Evaluation in Colab](https://colab.research.google.com/github/virginiakm1988/first-drop-of-ink-nvidia/blob/main/notebooks/02_evaluation.ipynb)
+- [Quickstart in Colab](https://colab.research.google.com/github/virginiakm1988/context-distractor-lab/blob/main/notebooks/01_quickstart.ipynb)
+- [Evaluation in Colab](https://colab.research.google.com/github/virginiakm1988/context-distractor-lab/blob/main/notebooks/02_evaluation.ipynb)
 - [English playbook](docs/playbook.md) · [繁體中文快速入門](README.zh-TW.md)
 
 ## NVIDIA integration and reuse
